@@ -6,7 +6,8 @@ import Mentor from "@/components/Home/Mentor";
 import Testimonial from "@/components/Home/Testimonials";
 import Newsletter from "@/components/Home/Newsletter";
 import { Metadata } from "next";
-import '../styles/globals.css';  // or your actual CSS path
+import './globals.css'; // ✅ Correct path relative to page.tsx
+
 
 export const metadata: Metadata = {
   title: "eLearning",
