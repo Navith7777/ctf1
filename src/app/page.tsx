@@ -6,6 +6,8 @@ import Mentor from "@/components/Home/Mentor";
 import Testimonial from "@/components/Home/Testimonials";
 import Newsletter from "@/components/Home/Newsletter";
 import { Metadata } from "next";
+import '../styles/globals.css';  // or your actual CSS path
+
 export const metadata: Metadata = {
   title: "eLearning",
 };
